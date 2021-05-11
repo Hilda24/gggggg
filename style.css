@@ -1,0 +1,331 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5 !important;
+    --primary: #90CAF9;
+    --secondary: #393e46;
+    --light: #eeeeee;
+    --dark: #232931;
+  }
+  
+  .text-primary{
+    color: var(--primary) !important;
+  }
+  
+  /* HEADER 
+  ---------------------------------------*/
+  .box-shadow-hover:hover { 
+    box-shadow: 0 2px 5px 0  
+    rgba(100, 99, 99, 0.2), 0  
+    2px 10px 0 rgb(129, 127, 127); 
+  } 
+  
+  .pointer { 
+    cursor: pointer; 
+  } 
+  
+  html, 
+  body {
+      height: 100%;
+  }
+  
+  .image
+      {
+        position:absolute;
+        top: 20px;
+        left: 25px;
+        z-index: 2;
+        width: 400px;
+        height:300px;
+      }
+  
+  .HEADING{
+    
+    width: 100%;
+    height: 300px;
+    position:relative;
+    background: #eeeeee;
+  }
+  .text{
+    font-family: sans-serif;
+    color: #393e46;
+    font-size: 50px;
+    position:absolute;
+      bottom:17px;
+      right:3px;
+  
+  }
+  .test{
+    position:absolute;
+    font-family: sans-serif;
+    color: #393e46;
+    font-size: 20px;
+      bottom:0;
+      right:90px;
+  
+  }
+  /* ------------------------------------------------ */
+  
+  /* FIRST COLUMN ---------------------------------------------- */
+  
+  
+  #yellow {
+    height: 100%;
+  }
+  #user{
+    height:100%;
+    border-width: 1px;
+    border-color: #393e46;
+  }
+  
+  
+  .user_mail{
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    color: #393e46;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .create{
+    position:absolute; top:10px; right:10px;
+    border-color: var(--primary)!important;
+      color: var(--primary)!important;
+  }
+  
+  
+  
+  .card-container{
+      max-width:1400px;
+      width:95%;
+  }
+  
+  .card-body{
+      max-width:100%;
+      padding-left:10px;
+    margin-top:0px;
+    
+      transition:.3s;
+      -webkit-transition:.3s;
+  }
+  
+  .card-deck{
+      margin-bottom:2px;
+      display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+  }
+  
+  .card{
+      margin-right:16px;
+      border:none;
+      flex: 0 0 auto;
+  }
+  
+  .journal_name{
+    margin-left: 10px;
+    color:var(--dark);
+    font-size: 30px;
+  }
+  .bi{
+    color: var(--primary);
+  }
+  .date{
+    margin-right: 10px;
+    font-size: 20px;
+    
+  }
+  .align-center{
+    align-self: center !important;
+    align-content: center !important; 
+    text-align: center !important;
+  }
+  .no{
+    color:var(--primary);
+  }
+  /* ----------------------------------------------- */
+  
+  /* OTHER_USER --------------------------------------- */
+  .other{
+    color: #393e46;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-top: 7px;
+  }
+  .seperator{
+    height: 3px;
+      background-color: var(--primary);
+      width: 200px;
+      margin-bottom: 1rem;
+  }
+  
+  .box{
+    padding:0 50px 50px 50px;
+    margin-top: 10px;
+  
+  }
+  
+  /* ------------------------------------------------------- */
+  /* -----------common to all -------------------- */
+  .navbar-brand {
+    color: var(--primary) !important;
+  }
+  
+  .bg-dark {
+    background-color: var(--secondary) !important;
+  }
+  
+  .serif-font {
+    font-family: 'Source Serif Pro', serif;
+  }
+  
+  .letter-spacing-2 {
+    letter-spacing: 2px;
+  }
+  
+  /* customising buttons to match theme */
+  .btn-outline-success {
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+  
+  .btn-outline-success:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+  }
+  
+  .btn-success {
+    background-color: var(--primary);
+    border-color: var(--primary);
+  }
+  
+  .btn-success:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+  }
+  
+  /* underline */
+  .underline {
+    height: 3px;
+    background-color: var(--primary);
+    width: 40vw;
+    margin-bottom: 1rem;
+  }
+  
+  .underline-fw {
+    height: 3px;
+    background-color: var(--primary);
+    width: inherit;
+    margin-bottom: 1rem;
+  }
+  
+  .thin-font {
+    font-weight: 300;
+  }
+  
+  /* --------------- index page ------------ */
+  #login-cover {
+    background-color: var(--light);
+  }
+  
+  #title-text{
+    color: var(--primary);
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 700;
+    font-size: 3.2rem;
+    letter-spacing: 3px;
+  }
+  .title-primary{
+    color: var(--primary);
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+    letter-spacing: 3px;
+  }
+  
+  
+  .popup-container {
+    background-color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    width: 300px;
+    padding: 15px;
+  }
+  .msg-alert{
+    font-size: small;
+    font-weight: 200;
+  }
+  
+  #close-login,
+  #close-signup {
+    position: absolute;
+  }
+  
+  #close-login:hover,
+  #close-signup:hover {
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 425px) {
+    .popup-container {
+      top: 22%;
+      width: 86vw;
+      margin-left: 7%;
+    }
+  
+    #img-cover {
+      visibility: hidden;
+      position: absolute;
+    }
+  
+    #cover {
+      padding: 0.5rem 0;
+    }
+  }
+  
+  @media screen and (min-width: 425px) and (max-width: 767px) {
+    .popup-container {
+      top: 15%;
+      left: 15%;
+    }
+  
+    #img-cover {
+      visibility: hidden;
+      position: absolute;
+    }
+  
+    #cover {
+      padding: 0.5rem 0;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .popup-container {
+      top: 20%;
+      left: 35%;
+    }
+  
+    #cover {
+      padding-top: 3rem;
+    }
+  }
+  
+  /* ------------ view html ------------ */
+  
+  .title-bold {
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+  }
+  
+  .close-content {
+    font-size: 25px;
+  }
+  
+  .close-content:hover {
+    cursor: pointer;
+    box-shadow: 10px inset #393e46;
+  }
